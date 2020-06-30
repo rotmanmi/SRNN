@@ -19,7 +19,7 @@ In order to run the tasks use the following commands:
 ```
 Note that for both the add and copy tasks another argument is ```sample_len``` that determines the time lag ```T```. ```hyper_size``` is the size of the hidden layers contained in ```f_r``` of network ```b```, and ```n_layers``` are the number of hidden layers in ```f_r```.
 The possible models are
-* srnnfast ([CUDA compilation instructions](./README.md#SRNN-CUDA-IMPLEMENTATION))
+* srnnfast (CUDA implementation of SRNN)
 * srnn
 * rnntanh
 * lstm
@@ -76,12 +76,4 @@ tqdm == 4.40.2
 scipy == 1.4.1
 
 ```
-
-##SRNN CUDA IMPLEMENTATION
-In order to use the SRNN implementation, first compile the cuda binaries by (tested using CUDA 10.1)
-```bash
-cd models/cuda
-python setup.py install
-```
-Next, make sure that L91 in ```models/SRNN.py``` points to the srnn.so generated. (the folder depends on the OS and python version)
 
