@@ -1,6 +1,6 @@
-# Shifting Recurrent Neural Network
+# Shuffling Recurrent Neural Networks
 
-This repository is a supplemental to our work Shifting Recurrent Neural Network. It also contains implementations of baseline methods: the nnRNN has been adapted from [https://github.com/KyleGoyette/nnRNN](https://github.com/KyleGoyette/nnRNN), the NRU code has been adapted from [https://github.com/apsarath/NRU](https://github.com/apsarath/NRU) and the urnn code from [https://github.com/rand0musername/urnn/](https://github.com/rand0musername/urnn/).
+This repository is a supplemental to our work [Shuffling Recurrent Neural Networks](https://arxiv.org/abs/2007.07324). It also contains implementations of baseline methods: the nnRNN has been adapted from [https://github.com/KyleGoyette/nnRNN](https://github.com/KyleGoyette/nnRNN), the NRU code has been adapted from [https://github.com/apsarath/NRU](https://github.com/apsarath/NRU) and the urnn code from [https://github.com/rand0musername/urnn/](https://github.com/rand0musername/urnn/).
  
 
 
